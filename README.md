@@ -1,6 +1,12 @@
-## 🇯🇵 日本語版 README.md
+以下が、あなたの元の内容を整形・構文ミス修正した、正しい Markdown 構文による `README.md` の書き換え版です。コードブロックや見出しの閉じ忘れを修正済みですので、そのまま使えます。
+
+---
+
+## ✅ 完成版：README.md（日本語・英語併記）
 
 ````markdown
+## 🇯🇵 日本語版 README.md
+
 # 📡 OCR画面変化検知・読み上げツール
 
 このツールは、指定した画面領域を定期的にキャプチャし、OCR（光学文字認識）を使って文字を抽出、前回と違う内容が検出された場合に日本語で読み上げるデスクトップユーティリティです。
@@ -45,23 +51,20 @@ python ocr_speech_notifier.py
 
 MIT License
 
-````
-
 ---
 
 ## 🇺🇸 English Version README.md
 
-```markdown
 # 📡 OCR Screen Change Detector and Text-to-Speech Notifier
 
 This is a desktop utility that periodically captures a selected screen region, performs OCR to extract any visible text, and uses text-to-speech (TTS) to read it aloud — but only if the content has changed since the last scan.
 
 ## 🔧 Features
 
-- Freely select the screen capture area with your mouse
-- Automatically detects changes in the screen
-- Performs OCR and reads new content aloud
-- Uses Google Text-to-Speech (gTTS)
+* Freely select the screen capture area with your mouse
+* Automatically detects changes in the screen
+* Performs OCR and reads new content aloud
+* Uses Google Text-to-Speech (gTTS)
 
 ## 🖥 Usage
 
@@ -69,7 +72,7 @@ This is a desktop utility that periodically captures a selected screen region, p
 
 ```bash
 pip install -r requirements.txt
-````
+```
 
 ### 2. Run the tool
 
